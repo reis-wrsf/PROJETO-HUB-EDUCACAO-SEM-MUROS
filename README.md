@@ -11,7 +11,7 @@ O **Hub Educação Sem Muros** nasceu da convicção de que, em um mundo saturad
 
 Este site atua como um acervo digital estratégico, funcionando como uma curadoria especializada que conecta estudantes a uma vasta rede de saberes gratuitos. Nossa plataforma é uma ferramenta de intervenção social que utiliza a tecnologia para democratizar o saber, passando por atualizações constantes para garantir que cada link agregue real valor acadêmico e profissional.
 
-🚀 **[Clique aqui para acessar o site oficial do projeto](#)** *(Substitua este # pelo link do GitHub Pages depois)*
+🚀 **[Clique aqui para acessar o site oficial do projeto](https://reis-wrsf.github.io/PROJETO-HUB-EDUCACAO-SEM-MUROS/)** 
 
 ---
 
