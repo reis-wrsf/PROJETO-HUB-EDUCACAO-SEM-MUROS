@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>PROJETO HUB EDUCAÇÃO SEM MUROS - Plataforma de conhecimento</title>
+</head>
+<body>
+    <header>
+<h1> PROJETO HUB EDUCAÇÃO SEM MUROS </h1>
+<p> Conteúdo didático para todos disponibilizado gratuitamente.</p>
+    </header>
+<div class="menu">
+    <nav>
+<a href="#" onclick="showSection('home')">INICIO</a>
+<a href="#" onclick="showSection('conhecimento')">CONHECIMENTO</a>
+<a href="#" onclick="showSection('duvidas')">DUVIDAS</a>
+<a href="#" onclick="showSection('sobre')">SOBRE</a>    
+    </nav>
+</div>
+<div class="container">
+<!--Home-->
+    <section id="home" class="content-section">
+    <!-- Banner de Boas-Vindas -->
+    <div class="sub-section-banner-azul">
+<div class="welcome-text">
+    <h2>Olá! É um prazer ter você aqui.👋</h2>
+    <p>Bem-vindo(a) ao seu portal de aprendizado. Este é o espaço ideal para organizar seus estudos de reforço em diversas áreas do conhecimento. Explore nosso acervo com curadoria de links e sites, reunindo o melhor conteúdo gratuito da internet para potencializar seu crescimento.</p>
+</div>
+    </div>
+    <!-- Grid de Ações Rápidas -->
+    <div class="quick-access">
+<div class="info-card-amarelo">
+    <p>💡 Dica de Uso</p>
+    <p>Acesse a aba <a href="#" onclick="showSection('conhecimento')"><b>Conhecimento</b></a> para encontrar Conteúdos de diversas areas do conhecimento.</p>
+</div>
+<div class="info-card-azul">
+    <p>📢 Conteúdo Novo</p>
+    <p>Lançamento da Página é uma honra ter você aqui em nossa página!</p>
+</div>
+<div class="info-card-magenta">
+    <p>🛠️ Acesse onde quiser</p>
+    <p>Este site pode ser acessado do celular, tablet ou de onde preferir. Aproveite!</p>
+</div>
+    </div>
+<!-- Destaque Principal -->
+    <div class="recomendacao-content">
+<h3>Conteúdo em Destaque</h3>
+<div class="recomendacao-banner1">
+    <div class="recomendacao-texto">
+<span>RECOMENDADO PARA VOCÊ</span>
+<p>Tecnologia e Habilidades Digitais</p>
+<p>Aprenda a otimizar o desempenho do seu computador e smartphone com técnicas simples e de qualidade.</p>
+<button onclick="showSection('tecnologia')">Começar Agora</button>
+    </div>
+</div>
+    </div>
+    </section>
+</section>
+<!--<Section de conhecimento>-->
+    <section id="conhecimento" class="content-section hidden">
+    <div class="sub-section-banner-azul">
+<h2>O que você quer aprender hoje? 🦉</h2>
+<p>Boas-vindas à nossa biblioteca digital! Explore conteúdos que vão dos fundamentos básicos às técnicas avançadas.<br> Aqui, você desenvolve a autonomia necessária para transformar sua rotina e carreira com materiais focados no seu sucesso pessoal e profissional.<br><strong>Escolha uma trilha e comece agora.</strong></p>
+</div> <!--Fechar banner welcome;e tags relacionadas ao seu Conteúdo-->
+<h3>Como funciona a página? </h3>
+<!--abre classe quick access-->
+<div class="quick-access">
+    <!--abre card azul-->
+    <div class="card-azul-top">
+    <p>📖 Organização do Conteúdo</p>
+    <p>O conteúdo é organizado em<b> trilhas de conhecimento</b>. Dentro de cada trilha, você encontrará subcategorias com os temas essenciais para o seu aprendizado.</p>
+    </div><!--fecha card azul-->
+    <div class="card-azul-top">
+    <p>🤔 É um curso? Quem são os professores?</p>
+    <p>Curadoria de conteúdos educativos gratuitos e públicos.
+    Organizamos o melhor da internet em um só lugar.
+    Não produzimos as aulas, mas estruturamos seu caminho.
+    Sua jornada de estudos simplificada e direta ao ponto.</p><br>
+    </div><!--fecha card amarelo-->    
+</div><!--fechar div quick access-->
+<h3>Áreas de Interesse</h3>
+<!--Área de blocos de categorias-->
+    <div class="grid" style="gap: 80px; ">
+<!-- Tipos Textuais-->
+<div class="card"style="border-top: 10px; border-left: 4px solid #2563eb; background-color: f1f5f9" >
+    <span class="MiniTituloAzul">Básico</span>
+    <a href="###"onclick="showSection('basicos')"class="link-invisivel" >
+    <img src="Images/Basicos.png" alt="Ensino Básico">
+
+<h2> Revisão Conhecimentos Gerais Básico</h2>
+<p>O foco aqui é revisar o conteúdo do Ensino Fundamental (Anos Finais) aqui é abordado a consolidação da base escolar e o desenvolvimento do raciocínio lógico e interpretativo.</p>
+    <ul>
+<li>Alfabetização Funcional e Letramento</li>
+<li>Raciocínio Lógico-Matemático</li>
+<li>Investigação Científica e Social</li>
+<li>Autonomia de Estudo</li>
+    </ul>
+</div></a><!--fecha <div> card Tipos Textuais e link invisivel-->
+<!-- Revisão Avançada-->
+<div class="card" style="border-top: 10px; border-left: 4px solid #8b5cf6; background-color: f1f5f9">
+    <span class="MiniTituloAzul" style="background-color: #8b5cf6;">Médio</span>
+    <a href="###"onclick="showSection('medios')"class="link-invisivel" >
+    <img src="Images/Avancados.png" alt="Revisão avançada">
+    <h2>Revisão Conhecimentos Gerais Avançado</h2>
+    <p>O foco aqui é revisar o conteúdo do Ensino Médio e aprofundar os conhecimentos adquiridos no ensino fundamental, visando se preparar para três pilares principais:</p>
+    <ul>
+    <li>Acesso ao Ensino Superior</li>
+    <li>Cidadania e Reflexão</li>
+    <li>Preparação Profissional e Acadêmica</li>
+    </ul>
+</div></a> <!--fecha <div> card revisão avançada e link invisivel-->
+<!-- Soft Skils-->
+<div class="card"style="border-top: 10px; border-left: 4px solid #064e3b; background-color: f1f5f9">
+    <span class="MiniTituloAzul" style="background-color: #064e3b;">Médio</span>
+    <a href="###" onclick="showSection('softSkils')"class="link-invisivel">
+    <img src="Images/SoftSkils.png" alt="Desenvolvendo Soft Skils">
+    <h2>Desenvolvimento Pessoal e Soft Skils</h2>
+    <p>O foco aqui é se desenvolver com habilidades comportamentais e mentais que a escola tradicional muitas vezes ignora, mas que são fundamentais para o sucesso em qualquer área da vida.</p><br>
+<ul>
+    <li>Aprender a ser o dono do próprio tempo e progresso</li>
+    <li>Inteligência e Resiliência</li>
+    <li>Consciência Financeira e Ética</li>
+    <li>Mentalidade de Aprendizado Contínuo</li>
+</ul>
+</div></a> <!--fecha <div> card soft skils e link invisivel--> 
+<!-- Habilidades Digitais-->
+<div class="card"style="border-top: 10px; border-left: 4px solid gray; background-color: f1f5f9">
+    <span class="MiniTituloAzul" style="background-color: gray;">Avançado</span>
+    <a href="###" onclick="showSection('tecnologia')" class="link-invisivel">
+    <img src="Images/Tecnologia.png" alt="Habilidades Digitais">
+    <h2>Tecnologia e Habilidades Digitais</h2>
+    <p>O campo de Habilidades Digitais une a fluência técnica ao uso estratégico da inteligência artificial, focando em transformar a tecnologia em uma aliada prática para o seu cotidiano.</p><br>
+<ul>
+    <li>Domínio Prático de Dispositivos</li>
+    <li>Produtividade com Office e IA</li>
+    <li>Independência Digital</li>
+    <li>Inteligência Artificial no Dia a Dia</li>
+</ul><br>
+    </div><!--Fechar <div> card content Habilidades Digitais e link invisivel-->
+</div></a><!--fecha <div> grid-->
+<br>
+<div class="card-azul-top" style="display:grid;">
+<h3>Precisa de ajuda ou quer nos conhecer melhor?</h3>
+<p>Se você ainda tem perguntas, visite nossa página de<b> Dúvidas.</b> Para entender quem somos e como este repositório nasceu, acesse Sobre o <b>Projeto</b>. Quer enviar um feedback ou falar com a gente? Entre em <b>Contato</b> para falar com nossa equipe. </p></div><!--Texto abaixo do Conteúdo--> 
+    </section><!--Fechar section conhecimento-->
+<!--Iniciar subseções-->
+    <!--Subseção basicos-->
+    <section id="basicos" class="content-section hidden">
+<div  class="sub-section-banner-azul">
+    <h2>Revisão Conhecimentos Gerais Básico</h2>
+    <p>Uma Base Intelectual para a Vida Acadêmica e Social</p>
+</div><!--Fechar div <sub-section-banner-azul>-->
+<div class="info-card-azul">
+    <p>O <strong>Ensino Fundamental nos Anos Finais (6º ao 9º ano)</strong> representa uma das etapas mais decisivas da formação educacional. É nesse período que deixamos de ser apenas receptores de conteúdos e passamos a ser <strong>sujeitos ativos do conhecimento</strong>, capazes de analisar, questionar e aplicar o que aprendemos.</p>
+    <p>Revisar esses fundamentos é vital. Com a correria do dia a dia, podemos esquecer detalhes que fazem a diferença em entrevistas de emprego, provas ou na interpretação da realidade.</p>
+</div><!--fechar div card azul-->
+<br><h2>Finalidade do Conteúdo</h2><br>
+<div class="grid">
+    <div class="card">
+<div class="MiniTituloAzul">Objetivo</div>
+<h3>Autonomia Intelectual</h3>
+<p>Desenvolver a capacidade de pensar criticamente e não apenas repetir informações. Foco em saber <em>como</em> pensar.</p>
+    </div><!--Fecha Div e card content Card Autonomia Intelectual-->
+    <div class="card">
+<div class="MiniTituloAzul">Ferramentas</div>
+<h3>Poder de Execução</h3>
+<p>Utilizar a leitura, a escrita e a matemática como verdadeiras ferramentas intelectuais para resolver problemas reais.</p>
+    </div><!--fecha Div CArd Poder de execução-->
+    <div class="card">
+<div class="MiniTituloAzul">Futuro</div>
+<h3>Base para a Vida</h3>
+<p>Construir fundamentos sólidos para o sucesso no Ensino Médio e para o exercício pleno da cidadania.</p>
+    </div><!--Fecha Div card Base para a Vida-->
+</div><br><!--Fechar <div>grid e pula linha-->
+<h2>Pilares Fundamentais</h2>
+<div class="card" style="margin-bottom: 2rem;" ><!--Abre <div> alfabetização funcional-->
+    <span class="MiniTituloAzul">Linguagens</span>
+    <h3>Alfabetização Funcional e Letramento</h3>
+    <p>Ir além de "ler palavras" e passar a <strong>interpretar os sentidos</strong>. Domínio de textos narrativos, argumentativos, científicos e jornalísticos.</p>
+    <div class="cardAtencao">
+<strong>📌 Dica de Ouro:</strong> Pergunte sempre ao texto: "O que ele quer dizer?", "Para quem foi escrito?" e "Qual a intenção do autor?"
+    </div>
+    <p>Conteúdo Relacionado: Tópicos Especiais 📖</p>
+    <a href="https://brasilescola.uol.com.br/redacao/tipos-textuais.htm" target="_blank" class="link-button" style="color: #2563eb;" > <p>Tipos Textuais: Info Escola </p> </a>
+    <a href="https://mundoeducacao.uol.com.br/gramatica/interpretacao-de-texto.htm" target="_blank" class="link-button" style="color: #2563eb;" > <p>Interpretação de texto: Mundo Educação </p> </a>
+    <a href="https://www.todamateria.com.br/lingua-portuguesa/producao-de-textos/" target="_blank" class="link-button" style="color: #2563eb;" > Produção textual: Toda Materia </a>
+</div><!--fecha<div> alfabetização funcional-->
+<div class="card" style="margin-bottom: 2rem;">
+    <span class="MiniTituloAzul">Exatas</span>
+    <h3>Raciocínio Lógico-Matemático</h3>
+    <p>A Matemática como ferramenta de resolução de problemas. Domínio de operações, frações, porcentagens, álgebra e noção espacial.</p>
+    <div class="cardAtencao">
+<strong>📌 Conselho Especial:</strong> No estudo da matemática, priorize entender e <strong>explicar o raciocínio</strong>, não busque apenas o resultado final.
+    </div>
+    <p>Conteúdo Relacionado: Tópicos Especiais 📖</p>
+    <a href="https://brasilescola.uol.com.br/matematica/operacoes-matematicas-basicas.htm" target="_blank" class="link-button" style="color: #2563eb;" ><p>Operações Básicas: Info Escola </p> </a>
+    <a href="https://www.todamateria.com.br/porcentagem/" target="_blank" class="link-button" style="color: #2563eb;" ><p>Frações, porcentagens e proporcionalidade: Toda matéria </p></a>
+    <a href="https://www.todamateria.com.br/expressoes-algebrica/" target="_blank" class="link-button" style="color: #2563eb;" ><p>Introdução à álgebra (expressões, equações): Toda matéria </p></a>
+    <a href="https://mundoeducacao.uol.com.br/matematica/nocoes-primitivas-geometria-ponto-reta-plano-espaco.htm" target="_blank" class="link-button" style="color: #2563eb;" ><p>Geometria e noção espacial: Mundo Educação </p></a>
+</div><!--fecha div raciocinio matematico-->
+<div class="card" style="margin-bottom: 2rem;">
+    <span class="MiniTituloAzul">Ciencias e Natureza</span>
+    <h3>Investigação Científica e Social</h3>
+    <p>O objetivo é começar a compreender como o mundo funciona — tanto na natureza quanto na sociedade.</p>
+    <div class="cardAtencao">
+<strong>📌 Boa Prática:</strong> Relacione sempre os conteúdos científicos com itens do cotidiano.</div>
+<p>Conteudo Relacionado 📖</p>
+<a href="https://brasilescola.uol.com.br/quimica/metodo-cientifico.htm" target="_blank" class="link-button" style="color: #2563eb;" >Método científico: Brasil escola </a><br>
+<a href="https://brasilescola.uol.com.br/geografia/meio-ambiente.htm" target="_blank" class="link-button" style="color: #2563eb;">Meio ambiente: Brasil Escola </a><br>
+<a href="https://brasilescola.uol.com.br/biologia/corpo-humano.htm" target="_blank" class="link-button" style="color: #2563eb;">Corpo humano: Brasil Escola </a><br>
+<a href="https://fisica.net/mecanicaclassica/materia_e_energia.php" target="_blank" class="link-button" style="color: #2563eb;">Energia e matéria: Física.net </a><br>
+<a href="https://vestibulares.estrategia.com/portal/materias/filosofia/pensamento-cientifico/" target="_blank" class="link-button" style="color: #2563eb;">Pensamento científico: Estratégia vestibulares </a>
+    </div><!--Fecha div sociedade e natureza-->
+    <div class="card" style="margin-bottom: 2rem;">
+    <span class="MiniTituloAzul">História e Geografia</span>
+    <h3>Investigação Científica e Social</h3>
+    <p>O objetivo é começar a compreender como a sociedade funciona.</p>
+    <div class="cardAtencao">
+<strong>📌 Boa Prática:</strong> Relacione sempre os conteúdos históricos com fatos atuais e com a sua realidade local.</div><!--Fecha Div card atencao-->
+<p>Conteúdo Relacionado: Tópicos Especiais 📖</p>
+<a href="https://brasilescola.uol.com.br/historiab" target="_blank" class="link-button" style="color: #2563eb;">História do Brasil: Brasil Escola </a><br>
+<a href="https://www.todamateria.com.br/territorio/" target="_blank" class="link-button" style="color: #2563eb;">Território: conceito, formação e exemplos: Toda matéria </a><br>
+<a href="https://www.todamateria.com.br/o-que-e-cultura/" target="_blank" class="link-button" style="color: #2563eb;">Cultura: o que é:Toda matéria </a><br>
+<a href="https://brasilescola.uol.com.br/geografia/setores-economia.htm" target="_blank" class="link-button" style="color: #2563eb;">economia: Brasil Escola </a><br>
+<a href="https://brasilescola.uol.com.br/o-que-e/geografia/o-que-e-cidadania.htm" target="_blank" class="link-button" style="color: #2563eb;">O que é Cidadania: Brasil Escola </a><br>
+<a href="https://www.todamateria.com.br/contagem-do-tempo-na-historia/" target="_blank" class="link-button" style="color: #2563eb;">Noções de tempo histórico: Toda Matéria  </a><br>
+<a href="https://brasilescola.uol.com.br/geografia/espaco-geografico.htm" target="_blank" class="link-button" style="color: #2563eb;">Espaço geográfico: Brasil Escola  </a><br>
+    </div><!--Fecha div História e Geografia-->
+    <div class="card-erro">
+    <h3>Erros Comuns para Evitar</h3>
+    <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 0.5rem; box-shadow: none; margin-bottom: 0;">
+<ul>
+    <li>Decorar sem compreender o porquê</li>
+    <li>Não revisar conteúdos antigos</li>
+</ul>
+<ul>
+    <li>Uso excessivo de celular sem controle</li>
+    <li>Falta de uma rotina de estudos clara</li>
+</ul>
+</div><!--Fecha div grid-->
+</div><!--Fecha div error list-->
+<h2>Indicações de Canais e Sites</h2>
+<div class="grid">
+    <div class="card-azul-top">
+<strong>📘 Português</strong>
+<ul>
+    <li><a href="https://www.youtube.com/professornoslen" target="_blank">Professor Noslen</a></li>
+    <li><a href="https://www.youtube.com/@portuguescomleticia" target="_blank">Português com Letícia</a></li>
+</ul>
+    </div>
+    <div class="card-azul-top">
+<strong>🔢 Matemática</strong>
+<ul>
+    <li><a href="https://www.youtube.com/@descomplica" target="_blank">Descomplica</a></li>
+    <li><a href="https://www.youtube.com/@MatematicaRio" target="_blank">Matemática Rio</a></li>
+    <li><a href="https://www.youtube.com/@professorferretto" target="_blank">Professor Ferretto</a></li>
+    <li><a href="https://www.youtube.com/@Giscomgiz" target="_blank">Gis com Giz</a></li>
+</ul>
+    </div>
+    <div class="card-azul-top">
+<strong>🔬 Ciências</strong>
+<ul>
+    <li><a href="https://www.youtube.com/MANUALDOMUNDO" target="_blank">Manual do Mundo</a></li>
+    <li><a href="https://www.youtube.com/CienciaTodoDia" target="_blank">Ciência Todo Dia</a></li>
+    <li><a href="https://www.youtube.com/user/jubilut" target="_blank">Professor Jubilut</a></li>
+</ul>
+    </div>
+    <div class="card-azul-top">
+<strong>🌍 Humanas e Geral</strong>
+<ul>
+    <li><a href="https://www.youtube.com/@deboraaladim" target="_blank">Débora Aladim</a></li>
+    <li><a href="https://brasilescola.uol.com.br/" target="_blank">Brasil Escola</a></li>
+    <li><a href="https://www.todamateria.com.br/" target="_blank">Toda Matéria</a></li>
+</ul>
+    </div><!--fecha ciencias-->
+    <div class="card-azul-top">
+<strong>📘 Bons Sites</strong>
+<ul>
+    <li><a href="https://mundoeducacao.uol.com.br/" target="_blank">Mundo Educação</a></li>
+    <li><a href="https://moderna.com.br/escola-publica/pnld/" target="_blank">acervo de livros pnld</a></li>
+    <li><a href="https://www.todamateria.com.br/" target="_blank">Toda Matéria</a></li>
+    <li><a href="https://brasilescola.uol.com.br/" target="_blank">Brasil Escola</a></li>
+</ul>
+    </div>
+</div>
+<div class="card-gradient">
+    <h2 style="margin-top: 0; border: none;">Conclusão</h2>
+    <p style="margin-bottom: 1.5rem; font-size: 1.1rem;">O Ensino Fundamental é a estrutura central da sua formação intelectual. Quem constrói bem essa base consegue:</p>
+    <ul>
+<li class="check-item">Aprender qualquer novo assunto com facilidade</li>
+<li class="check-item">Desenvolver um pensamento crítico genuíno</li>
+<li class="check-item">Estar preparado para os desafios do Ensino Médio</li>
+<li class="check-item">Tornar-se um cidadão mais consciente e ativo</li>
+    </ul>
+</div>
+    </section><!--fechar section basicos page-->
+<!--Abrir seção Ensino médio-->
+    <section id="medios" class="content-section hidden">
+<div class="sub-section-banner-lilas">
+    <p style="text-transform: uppercase; letter-spacing: 2px; font-weight: 600; opacity: 0.8;">Revisão de Conhecimentos Gerais</p>
+    <h1>Ensino Médio</h1>
+    <p style="font-size: 1.1rem; opacity: 0.9;">Uma Base Avançada para o Sucesso Acadêmico e Profissional</p>
+</div>
+<!--Fecha div subsection banner-->
+<div class="info-card-lilas">
+    <p>O <strong>Ensino Médio</strong> é o período de aprofundamento das competências adquiridas anteriormente, preparando o indivíduo para o ensino superior e para o mercado de trabalho. Nesta etapa, o foco deixa de ser apenas a compreensão básica e passa a ser a <strong>análise crítica e a síntese de informações complexas</strong>.</p>
+</div>
+<h2>Finalidade do Conteúdo</h2>
+<div class="grid">
+    <div class="card">
+<div class="MiniTitulolilas">Análise</div>
+<h3>Intervenção na Realidade</h3>
+<p>Consolidar o raciocínio lógico e a interpretação de fenômenos globais para agir no mundo de forma consciente.</p>
+    </div>
+    <div class="card">
+<div class="MiniTitulolilas">Autonomia</div>
+<h3>Aprendizagem Contínua</h3>
+<p>Desenvolver as ferramentas necessárias para que o estudante consiga aprender por conta própria ao longo da vida.</p>
+    </div>
+    <div class="card">
+<div class="MiniTitulolilas">Carreira</div>
+<h3>Desafios Técnicos</h3>
+<p>Preparação sólida para o ENEM, vestibulares de alto nível e processos seletivos em empresas de tecnologia e serviços.</p>
+    </div>
+</div>
+<h2>Pilares Fundamentais</h2><br>
+<!-- card comunicação-->
+<div class="card" style="margin-bottom: 2rem;">
+    <span class="MiniTitulolilas">Comunicação</span>
+    <h3>Linguagens e Argumentação Avançada</h3>
+    <p>Domínio da dissertação-argumentativa e análise literária. Compreender movimentos artísticos como reflexos da história.</p>
+    <div class="cardAtencaoLilas">
+<strong>Dica Prática:</strong> Ao ler, pergunte-se: "Qual é a intenção implícita do autor?" e "Qual o contexto histórico desta obra?"
+    </div>
+    <!--Conteudo extra comunicação-->
+    <p> Conteúdo Relacionado: Tópicos Especiais 📖</p>
+    <a href="https://canaldoensino.com.br/blog/como-fazer-uma-boa-analise-literaria" style="color: #8b5cf6;"> Artigo: Como fazer uma boa análise literária: Canal do ensino </a><br>
+    <a href="https://www.todamateria.com.br/redacao-tecnica/ " style="color: #8b5cf6;"> Artigo: Redação técnica Todamatéria</a> <br>
+    <a href="https://www.educamaisbrasil.com.br/educacao/dicas/escrita-academica-o-que-e-e-como-melhorar-essa-habilidade " style="color: #8b5cf6;"> Artigo: Redação acadêmica: Educa mais Brasil</a>
+</div>
+<!--Card Matematica-->
+<div class="card" style="margin-bottom: 2rem;">
+    <span class="MiniTitulolilas">Modelagem</span>
+    <h3>Raciocínio Lógico-Matemático Aplicado</h3>
+    <p>Matemática como linguagem para modelar o cotidiano. Foco em Funções, Estatística (análise de dados) e Geometria Espacial.</p>
+    <div class="cardAtencaoLilas">
+<strong>Boa Prática:</strong> Não memorize apenas fórmulas; entenda como elas descrevem fenômenos físicos ou tendências de mercado.
+    </div>
+    <!--Conteudo extra matematica-->
+    <p> Conteúdo Relacionado 📖</p>
+    <a href="https://www.todamateria.com.br/funcao/ " style="color: #8b5cf6;"> Artigo: Funções: Todamatéria</a><br>
+    <a href="https://www.todamateria.com.br/matematica/estatistica/" style="color:#8b5cf6">Artigo: Estatística: Todatéria</a><br>
+    <a href="https://www.todamateria.com.br/geometria-analitica-resumo/" style="color:#8b5cf6;">  Artigo: Geometria Analítica: Todamatéria </a> <br>
+    <a href="https://brasilescola.uol.com.br/matematica/geometria-espacial.htm " style="color: #8b5cf6;"> Artigo: Geometria espacial: Todamatéria </a>
+<!--Card Ciencias-->
+</div>
+<div class="card" style="margin-bottom: 2rem;">
+    <span class="MiniTitulolilas">Ciência</span>
+    <h3>Ciências da Natureza e suas Tecnologias</h3>
+    <p>Biotecnologia, Termodinâmica e Reações Químicas. Uso do método científico para combater o senso comum e notícias falsas.</p><br>
+<!--Conteudo extra ciencias-->
+<p> Conteúdo Relacionado 📖 : </p>
+<a href="https://www.educamaisbrasil.com.br/enem/fisica " style="color: #8b5cf6;"> Artigo: Física: Educa Mais Brasil</a><br>
+<a href="https://www.todamateria.com.br/quimica/ " style="color: #8b5cf6;"> Artigo: Conheça todas as áreas de Química: Todamatéria</a><br>
+<a href="https://www.todamateria.com.br/biologia/ " style="color: #8b5cf6;"> Artigo: Conheça todas as áreas de biologia: Todamatéria </a>
+</div>
+<!--Card Humanas-->
+<div class="card" style="margin-bottom: 2rem;">
+    <span class="MiniTitulolilas">Sociedade</span>
+    <h3>Ciências Humanas e Sociais Aplicadas</h3>
+    <p>História, Geopolítica, Sociologia e Filosofia. Analisar conflitos mundiais, formação das nações e ética na construção do pensamento.</p><br>
+<!--Conteudo extra humanas-->
+<p>Conteúdo Relacionado 📖 :</p>
+<a href="https://brasilescola.uol.com.br/geografia/geopolitica.htm" style="color: #8b5cf6;">Tópico: Geopolítica: Todamatéria</a><br>
+<a href="https://www.todamateria.com.br/historia/" style="color: #8b5cf6;"> Tópico: Conheça todas as áreas de história: Todamatéria</a><br>
+<a href="https://www.todamateria.com.br/sociologia/ " style="color: #8b5cf6;"> Tópico: Mais sobre sociologia: Todamatéria</a><br>
+<a href="https://www.todamateria.com.br/filosofia/ " style="color: #8b5cf6;"> Tópico: Mais sobre filosofia: Todamatéria</a><br>
+</div>
+<div class="card-erro"><!--abre mensagem de atenção-->
+    <h3>Erros Comuns para Evitar</h3>
+    <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 0.5rem; box-shadow: none; margin-bottom: 0;">
+<ul>
+    <li>Decorar sem compreender o porquê</li>
+    <li>Não revisar conteúdos antigos</li>
+</ul>
+<ul>
+    <li>Uso excessivo de celular sem controle</li>
+    <li>Falta de uma rotina de estudos clara</li>
+</ul>
+</div><!--Fecha div grid-->
+</div><!--fecha mensagem de atenção-->
+
+<!--Fontes médio-->
+<h2>Fontes de Conhecimento Avançado</h2>
+<div class="grid">
+    <div class="card-lilas-top">
+<strong>📘 Linguagens</strong>
+<ul>
+    <li><a href="https://www.youtube.com/professornoslen" target="_blank">Professor Noslen</a></li>
+    <li><a href="https://www.youtube.com/@portuguescomleticia" target="_blank">Português com Letícia</a></li>
+</ul>
+    </div>
+    <div class="card-lilas-top">
+<strong>🔢 Exatas</strong>
+<ul>
+    <li><a href="https://www.youtube.com/@descomplica" target="_blank">Descomplica</a></li>
+    <li><a href="https://www.youtube.com/@MatematicaRio" target="_blank">Matemática Rio</a></li>
+    <li><a href="https://www.youtube.com/@professorferretto" target="_blank">Professor Ferretto</a></li>
+</ul>
+    </div>
+    <div class="card-lilas-top">
+<strong>🔬 Ciências</strong>
+<ul>
+    <li><a href="https://www.youtube.com/CienciaTodoDia" target="_blank">Ciência Todo Dia</a></li>
+    <li><a href="https://www.youtube.com/MANUALDOMUNDO" target="_blank">Manual do Mundo</a></li>
+    <li><a href="https://www.youtube.com/user/jubilut" target="_blank">Professor Jubilut</a></li>
+</ul>
+    </div>
+    <div class="card-lilas-top">
+<strong>🌎 Humanidades</strong>
+<ul>
+    <li><a href="https://www.youtube.com/@deboraaladim" target="_blank">Débora Aladim</a></li>
+    <li><a href="https://brasilescola.uol.com.br/" target="_blank">Brasil Escola</a></li>
+    <li><a href="https://www.todamateria.com.br/" target="_blank">Toda Matéria</a></li>
+</ul>
+    </div>
+</div>
+
+<div class="card-gradient">
+    <h2 style="margin-top: 0; border: none;">Conclusão</h2>
+    <p>A revisão sólida dos conteúdos do Ensino Médio não é apenas sobre passar em provas, mas sobre construir uma base intelectual que permita transitar com segurança em qualquer ambiente acadêmico ou profissional.</p>
+    <ul style="margin-top: 1.5rem;">
+<li class="check-item">Capacidade de síntese e argumentação</li>
+<li class="check-item">Domínio de ferramentas lógicas e científicas</li>
+<li class="check-item">Preparação para o sucesso em longo prazo</li>
+    </ul>
+</div>
+    </section><!--Fechar seção ensino médio-->
+<!--Abre seção Soft Skils-->
+<section id="softSkils" class="content-section hidden">
+    <div class="sub-section-banner-verde">
+    <p>Habilidades Socioemocionais</p>
+    <h1>Soft Skills & Evolução</h1>
+    <p style="font-size: 1.1rem; opacity: 0.9;">A Base para a Excelência Comportamental e Profissional</p>
+</div>
+    <!--Fecha div subsection banner-->
+    <div class="info-card-verde" style="">
+    <p>O desenvolvimento de <strong>Soft Skills</strong> e o investimento em <strong>Desenvolvimento Pessoal</strong> representam o aprimoramento das competências socioemocionais, preparando o indivíduo para a liderança e a resiliência no mercado moderno. O foco é a <strong>inteligência emocional e a gestão estratégica de si mesmo</strong>.</p>
+</div>
+    <h2>Finalidade do Conteúdo</h2>
+<div class="grid">
+    <div class="card">
+<div class="miniTituloVerde">Emocional</div>
+<h3>Inteligência e Adaptação</h3>
+<p>Consolidar a capacidade de adaptação a mudanças globais e manter o equilíbrio em ambientes de alta pressão.</p><br>
+
+    </div>
+    <div class="card">
+<div class="miniTituloVerde">Atitude</div>
+<h3>Proatividade e Evolução</h3>
+<p>Desenvolver a busca proativa por melhoria contínua, transformando o autoconhecimento em impacto positivo.</p><br>
+
+    </div>
+    <div class="card">
+<div class="miniTituloVerde">Carreira</div>
+<h3>Liderança e Networking</h3>
+<p>Preparação para desafios práticos como gestão de crises, negociações de alto nível e networking estratégico.</p>
+    </div>
+</div><br>
+<h2>Pilares de Desenvolvimento</h2>
+<div class="card" style="margin-bottom: 2rem;">
+    <span class="miniTituloVerde">Interpessoal</span>
+    <h3>Comunicação Assertiva e Persuasiva</h3>
+    <p>Domínio da expressão clara, escuta ativa, oratória e linguagem corporal. Como transmitir autoridade e empatia simultaneamente.</p>
+    <div class="cardAtencao-verde">
+<strong>Dica Prática:</strong> Ao conversar, pergunte-se: "Qual é o objetivo real desta interação e como posso ser mais claro e diplomático?"
+    </div>
+    <p>Conteúdo Relacionado 📖</p>
+       <a href=" https://www.escolavirtual.gov.br/curso/1347" style="color: #064e3b;"> Curso Gratuito: Oratoria: Escola Virtual GOV</a> <br>
+<a href="https://fia.com.br/blog/linguagem-corporal/" style="color: #064e3b;">Artigo: Linguagem Corporal: FIA</a><br>
+<a href="https://www.hostgator.com.br/blog/o-que-e-feedback/?gad_source=1&gad_campaignid=22134387764&gbraid=0AAAAAD5rgDZFqVdp9hyrTYLvzVExicb1i&gclid=CjwKCAjw5ZXQBhBdEiwAI5XVWbJXbZBAXSPY9u7xRRnJfc3AdB5vKAfNvJtMqObBaROx7Fy_rgl8vhoC-a8QAvD_BwE" style="color: #064e3b;" >Artigo: O que é feedback: Hostgator</a><br>
+<a href="https://online.pucrs.br/blog/negociacao" style="color: #064e3b;"> Artigo: Aprimorar hábilidade de negociação: blog PucRS</a><br>
+</div>
+<div class="card" style="margin-bottom: 2rem;">
+    <span class="miniTituloVerde">Intrapessoal</span>
+    <h3>Autogestão e Produtividade Estratégica</h3>
+    <p>Gestão do tempo, foco e disciplina. Entender a ciência do hábito e como a neurociência pode otimizar sua performance diária.</p>
+    <div class="cardAtencao-verde">
+<strong>Boa Prática:</strong> Utilize a regra dos 2 minutos: se uma tarefa leva menos de 2 minutos, faça-a imediatamente para evitar o acúmulo mental.
+    </div>
+    <p>Conteúdo Relacionado 📖</p>
+    <a href="https://www.escolavirtual.gov.br/curso/468" style="color: #064e3b;" > Curso: Gestão do Tempo e Produtividade: Escola virtual Gov BR</a><br>
+    <a href="https://www.gupy.io/blog/avaliacao-de-desempenho" style="color: #064e3b;" >Artigo: Avaliação de desempenho pessoal Grupy </a><br>
+    <a href="https://lucid.co/pt/blog/o-que-e-metrica" style="color: #064e3b;" >Artigo: O que é metrica: Lucid </a><br>
+    <a href="https://www.escolavirtual.gov.br/programa/215" style="color: #064e3b;" > Trilha de cursos: Visão sistemica: Escola virtual GovBR</a><br>
+</div>
+<div class="card" style="margin-bottom: 2rem;">
+    <span class="miniTituloVerde">Mercado</span>
+    <h3>Visão Sistêmica e Ética Profissional</h3>
+    <p>Compreender o mercado de trabalho, a economia das habilidades e a construção de uma marca pessoal baseada em integridade.</p>
+    <p>Conteúdo Relacionado 📖</p>
+    <a href="https://www.rdstation.com/blog/vendas/role-play/ " style="color: #064e3b;" > Artigo sobre : Role playng: rdstation</a><br>
+    <a href="https://jrmcoaching.com.br/blog/diario-de-bordo-uma-ferramenta-poderosa-do-coaching/ " style="color: #064e3b;" >Artigo sobre diário de Bordo </a><br>
+    <a href="https://jrmcoaching.com.br/blog/diario-de-bordo-uma-ferramenta-poderosa-do-coaching/ " style="color: #064e3b;" > Artigo sobre como elaborar avaliação pessoal</a><br>
+</div>
+<h2>Estratégias de Evolução Ativa</h2>
+<div class="grid">
+    <div class="card">
+<div class="method-step">
+    <div class="step-number">1</div>
+    <strong>Role-Playing</strong>
+</div>
+<p>Pratique situações difíceis, como negociações ou feedbacks, simulando diálogos para refinar seus argumentos e tom de voz.</p>
+<p>Conteúdo Relacionado 📖</p>
+<a href="" style="color: #064e3b;" > </a><br>
+<a href="" style="color: #064e3b;" > </a><br>
+    </div>
+    <div class="card">
+<div class="method-step">
+    <div class="step-number">2</div>
+    <strong>Mapa de Competências</strong>
+</div>
+<p>Conecte suas habilidades técnicas (Hard Skills) com as comportamentais (Soft Skills) usando diagramas de carreira.</p>
+    </div>
+    <div class="card">
+<div class="method-step">
+    <div class="step-number">3</div>
+    <strong>Diário de Bordo</strong>
+</div>
+<p>Revise suas ações e aprendizados em intervalos de 1, 7 e 30 dias após eventos importantes para consolidar novos hábitos.</p>
+    </div>
+</div><br>
+ <div class="card-erro"><!--abre mensagem de atenção-->
+    <h3>Erros Comuns para Evitar</h3>
+    <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 0.5rem; box-shadow: none; margin-bottom: 0;">
+<ul>
+    <li>Decorar sem compreender o porquê</li>
+    <li>Não revisar conteúdos antigos</li>
+</ul>
+<ul>
+    <li>Uso excessivo de celular sem controle</li>
+    <li>Falta de uma rotina de estudos clara</li>
+</ul>
+</div><!--Fecha div grid-->
+</div><!--fecha mensagem de atenção-->
+
+<h2>Fontes de Desenvolvimento</h2>
+<div class="grid">
+    <div class="card-verde-top">
+<strong>🗣️ Comunicação</strong>
+<ul>
+    <li><a href=" https://www.youtube.com/@WendellCarvalho_">Wendell Carvalho</a></li>
+    <li><a href="https://www.youtube.com/playlist?list=PLtsnaQJNcyJHRYktzUgChUTUaWFIRS5Dd ">Canais de Oratória</a> </li>
+</ul>
+    </div>
+    <div class="card-verde-top">
+<strong>💼 Gestão e Carreira</strong>
+<ul>
+    <li><a href="https://lp.napratica.org.br/cursos-online-gratuitos?referral=google-grants-google-cpc-desenvolvimentoprofissional&gad_source=1&gad_campaignid=23751233249&gbraid=0AAAAA-zaM6tNGODq7-i44QUUyylm4tvdL&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3LqUOdxTZkc9EUwAscq11tAiF3YdYhXOaHYx61yrMTU869zt4i-y24aAi7fEALw_wcB">Na Prática (Fundação Estudar)</a></li>
+    <li><a href="https://lp.napratica.org.br/cursos-online-gratuitos?referral=google-grants-google-cpc-desenvolvimentoprofissional&gad_source=1&gad_campaignid=23751233249&gbraid=0AAAAA-zaM6tNGODq7-i44QUUyylm4tvdL&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3LqUOdxTZkc9EUwAscq11tAiF3YdYhXOaHYx61yrMTU869zt4i-y24aAi7fEALw_wcB">LinkedIn Learning</a></li>
+    <li><a href="https://www.youtube.com/HBRBrasilChannel ">Harvard Business Review</a></li>
+</ul>
+    </div>
+    <div class="card-verde-top">
+<strong>🧠 Comportamento</strong>
+<ul>
+    <li><a href=" https://www.youtube.com/@CanaldoEslen">Eslen Delanogare</a></li>
+    <li><a href="https://www.youtube.com/channel/UCimcgcM89YQgHEhwlTWENNA">André Buric (BrainPower)</a></li>
+    <li><a href="https://www.youtube.com/@TEDx ">TED Talks (Psicologia)</a></li>
+</ul>
+    </div>
+    <div class="card-verde-top">
+<strong>🤝 Liderança</strong>
+<ul>
+    <li><a href="https://www.youtube.com/c/PrazerKarnal  ">Leandro Karnal</a></li>
+    <li><a href=" https://www.youtube.com/@CanaldoCortella">Mario Sergio Cortella</a></li>
+    <li><a href="https://www.youtube.com/user/endeavorbrasil ">Endeavor Brasil</a></li>
+</ul>
+    </div>
+</div>
+<div class="card-gradient">
+    <h2 style="margin-top: 0; border: none;">Conclusão</h2>
+    <p>Investir em Soft Skills não é apenas sobre ser "agradável", mas sobre construir a base comportamental necessária para navegar no mundo corporativo com clareza e liderança.</p>
+    <ul style="margin-top: 1.5rem;">
+<li class="check-item">Resiliência e Inteligência Emocional</li>
+<li class="check-item">Capacidade de liderança e influência</li>
+<li class="check-item">Navegação segura em ambientes complexos</li>
+    </ul>
+</div>
+</section><!--Fecha seção soft skils-->
+<!--Abre seção habilidades digitais-->
+<section id="tecnologia" class="content-section hidden">
+<div class="sub-section-banner-cinza">
+    <p style="text-transform: uppercase; letter-spacing: 2px; font-weight: 600; opacity: 0.8;">Transformação Digital</p>
+    <h1>Tecnologia & Habilidades Digitais</h1>
+    <p style="font-size: 1.1rem; opacity: 0.9;">Um Guia para Evolução Técnica e Mentalidade Digital</p>
+</div>
+<div class="info-card-cinza">
+    <p>O desenvolvimento de <strong>Habilidades Digitais</strong> vai além de operar softwares; trata-se de compreender como as ferramentas tecnológicas potencializam a resolução de problemas. O desafio é transitar do uso passivo para a <strong>autonomia estratégica e segurança digital</strong>.</p>
+</div>
+<h2>Finalidade do Conteúdo</h2>
+<div class="grid">
+    <div class="card">
+<div class="MiniTituloCinza">Conhecimento</div>
+<h3>Literacia Digital</h3>
+<p>Entender os fundamentos por trás das ferramentas para facilitar o aprendizado rápido de novas tecnologias.</p>
+     <h3>Conteúdo Relacionado 📖</h3>
+    <a href="https://www.typing.com/br/student/lessons" style="color:#383f42;">Mini Curso: lições de digitação: typing </a>
+    <br><a href="https://support.microsoft.com/pt-br/windows/atalhos-do-teclado-no-windows-dcc61a57-8ff0-cffe-9796-cb9706c75eec" style="color:#383f42;">Tópico: Atalhos de teclado Windows: Microsoft </a>
+    <br><a href="https://support.google.com/chrome/answer/157179?hl=pt-BR&co=GENIE.Platform%3DDesktop" style="color:#383f42;">Tópico: Atalhos de teclado Google Chrome: Google </a>
+    <br><a href="https://support.microsoft.com/pt-BR/accessibility/office-accessibility/keyboard-shortcuts-in-microsoft-365" style="color:#383f42;"> Tópico: Atalhos de teclado Office</a><br>
+    </div>
+    <div class="card">
+<div class="MiniTituloCinza">Performance</div>
+<h3>Eficiência Operacional</h3>
+<p>Utilizar automações e ferramentas de produtividade para otimizar fluxos de trabalho e ganhar tempo.</p>
+<h3>Conteúdo Relacionado 📖</h3>
+    <a href="https://exame.com/carreira/guia-de-carreira/como-se-preparar-para-testes-de-raciocinio-logico-veja-exemplos-com-respostas/" style="color:#383f42;">Artigo: Como se preparar para testes de raciocínio lógico: Exame </a><br>
+    <a href="http://ibm.com/br-pt/think/topics/automation" style="color:#383f42;"> Artigo: o que é automação: IBM</a>
+    </div>
+    <div class="card">
+<div class="MiniTituloCinza">Ética</div>
+<h3>Segurança e Dados</h3>
+<p>Desenvolver uma postura consciente sobre privacidade, proteção de dados e comportamento ético em rede.</p>
+<h3>Conteúdo Relacionado 📖</h3>
+<a href="https://www.microsoft.com/pt-br/security/business/security-101/what-is-identity-access-management-iam " style="color:#383f42;"> Artigo: O que é gerenciamento de identidades e acesso: Microsoft</a><br>
+    </div>
+</div>
+<h2>Pilares de Desenvolvimento Digital</h2>
+<div class="card" style="margin-bottom: 2rem;">
+    <span class="MiniTituloCinza">Infraestrutura</span>
+    <h3>Domínio de Nuvem e Produtividade</h3>
+    <p>Colaboração em tempo real (Google Workspace, Microsoft 365) e organização de informações acessíveis de qualquer lugar.</p>
+    <div class="cardAtencaoCinza">
+<strong>Dica Prática:</strong> Organize seus arquivos na nuvem com uma nomenclatura padronizada para nunca perder tempo procurando documentos.
+    </div>
+    <h3>Conteúdo Relacionado 📖</h3>
+    <a href="https://www.totvs.com/blog/gestao-para-assinatura-de-documentos/ferramentas-de-produtividade/" style="color:#383f42;">Artigo: 17 ferramentas de produtividade que você precisa conhecerTotvs</a>
+    <br><a href="https://safetec.com.br/cloud-computing/colaboracao-na-nuvem/" style="color:#383f42;">Artigo: O que é colaboração na nuvem? Por que investir? safetec </a>
+    <br><a href="https://www.ibm.com/br-pt/think/topics/workflow" style="color:#383f42;">Artigo: O que é workflow (fluxo de trabalho)?: ibm</a>
+    <br>
+</div>
+<div class="card" style="margin-bottom: 2rem;">
+    <span class="MiniTituloCinza">Inteligência</span>
+    <h3>IA e Pensamento Algorítmico</h3>
+    <p>Uso estratégico de Inteligência Artificial para acelerar processos, mantendo sempre a revisão ética e técnica humana.</p>
+    <div class="cardAtencaoCinza">
+<strong>Boa Prática:</strong> Trate resultados de IA como rascunhos iniciais que exigem sua validação crítica e ajustes finais.
+    </div>
+    <h3>Conteúdo Relacionado 📖</h3>
+    <a href="https://www.ibm.com/br-pt/think/topics/prompt-engineering " style="color:#383f42;">Artigo: O que é engenharia de prompts? IBM </a><br>
+    <a href="https://academiadojornalista.com.br/jornalismo-digital/metodos-para-checagem-de-fontes-e-validacao-de-informacoes/ " style="color:#383f42;">Artigo: Validação de fontes: Academia Jornalista </a>
+</div>
+<div class="card" style="margin-bottom: 2rem;">
+    <span class="MiniTituloCinza">Prevenção</span>
+    <h3>Cibersegurança e Proteção</h3>
+    <p>Higiene digital: autenticação em dois fatores, gestão de senhas e veracidade de informações (combate a fake news).</p>
+    <h3>Conteúdo Relacionado 📖</h3>
+    <a href="https://www.ibm.com/br-pt/think/topics/threat-hunting" style="color:#383f42;"> Artigo: O que é caça a ameaças? IBM</a><br>
+<a href="https://www.cloudflare.com/pt-br/learning/privacy/what-is-data-privacy/ "style="color:#383f42;"> Artigo O que é privacidade de dados? Cloudflare</a>
+</div>
+ <div class="card-erro"><!--abre mensagem de atenção-->
+    <h3>Erros Comuns para Evitar</h3>
+    <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 0.5rem; box-shadow: none; margin-bottom: 0;">
+<ul>
+    <li>Decorar sem compreender o porquê</li>
+    <li>Não revisar conteúdos antigos</li>
+</ul>
+<ul>
+    <li>Uso excessivo de celular sem controle</li>
+    <li>Falta de uma rotina de estudos clara</li>
+</ul>
+</div><!--Fecha div grid-->
+</div><!--fecha mensagem de atenção-->
+
+<h2>Fontes de Desenvolvimento Digital</h2>
+<div class="grid">
+    <div class="card-cinza-top">
+<strong>💻 Programação</strong>
+<ul>
+    <li><a href="https://www.youtube.com/cursoemvideo ">Curso em Vídeo (Guanabara)</a></li>
+    <li><li><a href="https://www.youtube.com/FilipeDeschamps">Filipe Deschamps</a></li>
+</ul>
+    </div>
+    <div class="card-cinza-top">
+<strong>🚀 Inovação</strong>
+<ul>
+    <li><a href="https://www.youtube.com/channel/UC_bXJnsgwOqEPA_-6N6faKw ">Canal Tech</a></li>
+    <li><a href="https://www.youtube.com/@Diolinux ">Diolinux</a></li>
+</ul>
+    </div>
+    <div class="card-cinza-top">
+<strong>🎓 Portais</strong>
+<ul>
+    <li><a href="https://skillshop.withgoogle.com/?gad_source=1&gad_campaignid=13568664445&gbraid=0AAAAAC6DNhHvGSa6TwtMOKvF5s6HpX7TD&gclid=Cj0KCQjwiJvQBhCYARIsAMjts3LMixHi2u8vNqgv0ptCCeMhYmK8yAg3noqIE41N8gX_iqddDuUJw54aAvhlEALw_wcB ">Google Skillshop</a></li>
+    <li><a href=" https://learn.microsoft.com/pt-br/ ">Microsoft Learn</a></li>
+</ul>
+    </div>
+    <div class="card-cinza-top">
+<strong>📚 Cursos</strong>
+<ul>
+    <li><a href="https://www.coursera.org/ ">Coursera</a></li>
+    <li><a href="https://www.udemy.com/ ">Udemy</a></li>
+</ul>
+    </div>
+    <div class="card-cinza-top">
+<strong>📖 Livros</strong>
+<ul>
+    <li><a href="https://sextante.com.br/products/organize-e-simplifique-sua-vida-digital?srsltid=AfmBOoonLkegxNrEMOhJQ9yOAFlGc28HaR30P6Fmg8LlS1m4NQJNnpQX">Livro: Organize e simplifique sua vida digital</a></li>
+    <li><a href="https://bei.com.br/livro/tecnologia-da-informacao-para-todos/6 ">Livro: Tecnologia da informação para todos</a></li>
+    <li><a href="https://www.editorasenacsp.com.br/livro/habilidades-futuro-trabalho-era-inteligencia-artificial?srsltid=AfmBOoruGCRkwyok0GFOvDiL-bdgoFH27NRvFC8HetXq40kwzaD8LCf5 ">A (r)evolução das habilidades...</a></li>
+</ul>
+    </div>
+</div>
+<div class="conclusion-section">
+    <h2 style="margin-top: 0; border: none;">Conclusão</h2>
+    <p>O domínio digital não é um destino, mas um processo contínuo. Ter habilidades sólidas permite que você molde o futuro do seu trabalho com autonomia.</p>
+    <ul style="margin-top: 1.5rem;">
+<li class="check-item">Autonomia estratégica nas ferramentas</li>
+<li class="check-item">Segurança e proteção de dados</li>
+<li class="check-item">Agente ativo da transformação tecnológica</li>
+    </ul>
+</div>
+    </section>
+<!--FEcha seção habilidades digitais--> 
+<!--Abre tela Sobre-->
+<section id="sobre" class="content-section hidden">
+    <div class="sub-section-banner-azul">
+<p style="text-transform: uppercase; letter-spacing: 2px; font-weight: 600; opacity: 0.8;"> Nossa Essência e Propósito</p>
+<h1>PROJETO HUB EDUCAÇÃO SEM MUROS</h1>
+<p style="font-size: 1.1rem; opacity: 0.9;">O conhecimento deve ser acessível, organizado e democrático. </p>
+    </div>
+    <p>O <strong>Hub Educação Sem Muros</strong> nasceu da convicção de que, em um mundo saturado de informações, a verdadeira barreira para o aprendizado não é a falta de conteúdo, mas a dificuldade em encontrar fontes confiáveis e estruturadas.</p>
+    <p>Este site atua como um <strong>acervo digital estratégico</strong>, funcionando como uma curadoria especializada que conecta estudantes a uma vasta rede de saberes gratuitos. Nossa plataforma passa por atualizações constantes para garantir que cada link agregue real valor acadêmico e profissional.</p>
+    <div class="cardAtencao" style="background-color: #ffdede;border: 1px dashed #991b1b">
+<h3 style="color:#991b1b">Compromisso com a ODS 4</h3>
+    <p>Este trabalho é rigorosamente fundamentado no <strong>Objetivo de Desenvolvimento Sustentável 4 (ODS 4) da Agenda 2030 da ONU</strong>. Nosso objetivo central é assegurar a educação inclusiva, equitativa e de qualidade, promovendo oportunidades de aprendizagem ao longo da vida para todos.</p><br>
+    <a style="color: #991b1b;" href="https://gtagenda2030.org.br/ods/ods4/ " target="_blank"> Veja mais sobre 🔍</a>
+    </div>
+    <h2 > Exelência Acadêmica</h2>
+    <div class="grid">
+<div class="card">
+    <h3 style="color:#1e3a8a;">UNICID & Cruzeiro do Sul</h3>
+    <p>Desenvolvido no ambiente de inovação da Universidade Cruzeiro do Sul, referência no curso de Análise e Desenvolvimento de Sistemas (ADS).</p><br>
+    <a style="color: #1e3a8a;" href="https://cursos.unicid.edu.br/graduacao?gclsrc=aw.ds&&utm_source=ads-google-search&utm_medium=paid-g-c&utm_campaign=marca_graduacao_conversao_vendas_Google_keywords_search_unicid_ads&utm_term=unicid-b&utm_content=marca_keywords&gad_source=1&gad_campaignid=18416467341&gbraid=0AAAAADtm5uDfr9RXX6XWFr_RGvSwjrZsr&gclid=CjwKCAjwwpDQBhAuEiwAa-4Wo09vMh6SgHVfsU7OUD0x6dhuDhrgrPNTfNPCyrN0VIvplZELc_h22hoCswwQAvD_BwE " target="_blank"> Conheça a Universidade 🏫</a>
+</div>
+<div class="card">
+    <h3 style="color:#1e3a8a;">Projeto de Extensão</h3>
+    <p>Mais que um site, é uma ferramenta de intervenção social que utiliza a tecnologia para democratizar o saber.</p><br>
+    <a style="color: #1e3a8a;" href="https://no.descomplica.com.br/knowledge/o-que-%C3%A9-projeto-de-extens%C3%A3o" target="_blank"> Entenda mais sobre Projetos de extensão ❓</a>
+</div>
+    </div><br>
+    <h2>Atuação nas Comunidades</h2>
+    <p>Não ficamos apenas no digital. Realizamos ações de conscientização e panfletagem em pontos estratégicos de São Paulo:</p><br>
+<div class="info-card-azul">
+    <strong>Zona Norte:</strong> Jardim Brasil, Vila Sabrina e Parque Edu Chaves. Reforço escolar e transição de carreira.
+</div><br>
+<div class="info-card-azul">
+    <strong>Zona Leste:</strong> Tatuapé. Conexão com o polo estudantil e comercial.
+</div><br>
+<div class="info-card-azul">
+    <strong>Centro:</strong> Liberdade. Tecnologia como ferramenta de inclusão cultural.
+</div><br>
+<h2>Tecnologia e UX Design</h2>
+<p>Embora utilize uma arquitetura moderna, a interface foi projetada para ser <strong>intuitiva e responsiva</strong>. Utilizamos conceitos de UX Design para garantir que a navegação seja clara, removendo as barreiras invisíveis entre o cidadão e a informação.</p><br>
+<div class="card-azul-top">
+    <h2>Idealização e Desenvolvimento</h2>
+    <a href="https://www.linkedin.com/feed/" aria-label="LinkedIn"><p><strong>Wellington Reis</strong></p></a>
+    <p>Estudante de Análise e Desenvolvimento de Sistemas (ADS). Com foco em transformar linhas de código em impacto social, Wellington combina expertise técnica com compromisso ativo no desenvolvimento das comunidades paulistanas.</p>
+    <p style="font-size: 0.9rem; opacity: 0.8; margin-top: 1rem;">* Plataforma educacional sem fins lucrativos de caráter informativo e acadêmico.</p>
+</div>
+</section>
+<section id="duvidas" class="content-section hidden">
+    <div class="sub-section-banner-azul"> 
+<h1>Dúvidas Frequentes ❓</h1>
+<p>Encontre respostas rápidas para as perguntas mais comuns sobre a nossa plataforma.</p>
+    </div>
+<div class="info-card-azul"> 
+    <h2> Preciso criar conta para acessar os materiais </h2> 
+    Não. Você pode acessar os conteúdos livremente sem precisar criar uma conta ou fazer cadastro.</p> 
+    </div><br>
+<div class="info-card-azul">
+    <h2>O site recomenda uma ordem de estudo?</h2>
+    <p>Não existe uma obrigação de seguir uma ordem específica. Em cada categoria, você pode escolher os conteúdos de acordo com seu interesse.</p>
+    </div><br>
+<div class="info-card-azul">
+    <h2>Consigo sugerir novos conteúdos ou cursos?</h2>
+    <p>Sim. Na aba “Contato” você pode enviar sugestões de conteúdos, cursos ou melhorias para a plataforma. Sua opinião é muito importante e ajuda o site a ficar cada vez melhor.</p>
+    </div><br>
+<div class="info-card-azul">
+    <h2>Posso acessar pelo celular? O site funciona sem instalar aplicativo?</h2>
+    <p>Sim. Você pode acessar o site pelo celular sem nenhum problema. A plataforma funciona diretamente no navegador e pode ser utilizada em qualquer dispositivo conectado à internet, sem precisar instalar o aplicativo.</p>
+    </div><br>
+<div class="info-card-azul">
+    <h2>Posso aprender sem experiência prévia?</h2>
+    <p>Claro. Temos diversos conteúdos desde o nível básico até o avançado. Você pode começar do zero e evoluir no seu próprio ritmo, aprendendo passo a passo.</p>
+    </div><br>
+<div class="info-card-azul">
+    <h2>O site é gratuito ou existem conteúdos pagos?</h2>
+    <p>Sim. O acesso ao site é totalmente gratuito. Porém, alguns conteúdos recomendados podem conter versões pagas, assinaturas ou anúncios, pois pertencem a plataformas externas.</p>
+    </div><br>
+<div class="info-card-azul">
+    <h2>Os conteúdos são atualizados com frequência?</h2>
+    <p>Sim. Estamos sempre trabalhando para manter os conteúdos atualizados e trazer novidades. Você pode conferir as atualizações mais recentes na página inicial do site.</p>
+</div><br>
+<div class="info-card-azul">
+    <h2>O site tem suporte para dúvidas?</h2>
+    <p>Sim. Você pode enviar suas dúvidas pela área “Dúvidas” ou entrar em contato pela seção “Contato”. Também é possível utilizar os links disponibilizados no site para falar conosco.</p>
+    </div><br>
+<div class="card-azul-top">
+    <h2>Ainda tem dúvidas?</h2>
+    <p>Se você não encontrou o que procurava, nossa equipe está pronta para ajudar.</p>
+</div>
+</section>
+</div><!--Fecha container-->
+<!--fecha tela sobre--><!--Abre Rodapé-->
+<footer class="main-footer">
+    <div class="footer-container">
+<!-- Coluna 1: Sobre o Projeto -->
+<div class="footer-section-about">
+    <h2 class="footer-logo">PROJETO HUB EDUCAÇÃO SEM MUROS</h2><br>
+    <p>Esta plataforma educacional sem fins lucrativos oferece curadoria de caráter informativo e acadêmico.<br>Não nos responsabilizamos pela precisão ou disponibilidade de links e conteúdos de terceiros.<br>O acesso e o uso das informações externas são de inteira responsabilidade do usuário.
+    </p>
+</div>
+<div class="lista">
+<!-- Coluna 2: Links Rápidos --><br>
+<div class="footer-section links">
+    <h3>Navegação</h3>
+    <ul>
+<li><a href="#" onclick="showSection('home')">Inicio</a></li>
+<li><a href="#" onclick="showSection('conhecimento')">Conhecimento</a></li>
+<li><a href="#" onclick="showSection('duvidas')">Duvidas</a></li>
+<li><a href="#" onclick="showSection('sobre')">Sobre</a></li>
+    </ul>       
+</div>
+<!-- Coluna 4: Contato/Social -->
+<div class="footer-section social">
+    <h3>Contato</h3>
+    <div class="social-icons">
+<ul>
+<li><a href="https://www.linkedin.com/feed/" aria-label="LinkedIn">LinkedIn</a></li>
+<li><a href="https://github.com/reis-wrsf" aria-label="GitHub">GitHub</a></li>
+<li><a href="mailto:wrsfbrsp@gmail.com?subject=duvida%20do%20site"> E-mail</a></li>
+</ul>
+    </div>
+</div>
+</div><!--fecha lista-->
+    </div><!--fecha footer container-->
+    <!-- Faixa Inferior de Direitos e Créditos -->
+    <div class="footer-bottom">
+<p>&copy; 2026 Projeto Acadêmico - Desenvolvido para fins educacionais.</p>
+<p>São Paulo, Brasil</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
