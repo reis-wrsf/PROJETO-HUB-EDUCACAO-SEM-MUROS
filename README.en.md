@@ -7,7 +7,7 @@ The **Hub Educação Sem Muros** was born from the conviction that, in a world s
 
 This website acts as a strategic digital repository, functioning as a specialized curated collection that connects students to a vast network of free knowledge. Our platform is a social intervention tool that leverages technology to democratize learning, undergoing continuous updates to ensure that every link adds genuine academic and professional value.
 
-🚀 **[Click here to access the official website](#)** *(Replace this # with your GitHub Pages link later)*
+🚀 **[Click here to access the official website](https://reis-wrsf.github.io/PROJETO-HUB-EDUCACAO-SEM-MUROS/)** 
 
 ---
 
